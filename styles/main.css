@@ -1,0 +1,361 @@
+body {
+  background: none repeat scroll 0 0 #000000;
+    font-size: 62.5%;
+    font-family: arial;
+}
+
+#contentcontainer {
+	margin: 0 auto;
+	background: #000000 url('../images/bg-container.jpg') no-repeat center 0;
+}
+
+#content {
+	width:1000px;
+	min-height:2591px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#content img, #content ul {
+	text-decoration: none;
+	border: 0;
+}
+
+.sprite {
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+
+#share-container {
+	background: #000000 url('../images/share.jpg') no-repeat top center;
+	min-height: 27px;
+	width: 215px;
+	float: right;
+    padding-left: 34px;
+}
+
+	#share-container ul li {
+		list-style: none;
+	}
+
+	a#callbox {
+	    float: left;
+	    height: 348px;
+	    margin: 13px 0 20px 71px;
+	    width: 404px;
+	}
+
+	#register-container {
+		width: 522px;
+		margin: 50px 0 0 245px;
+		float: right;
+	}
+
+	#register {
+	    background: #000000 url('../images/register.jpg') no-repeat top center;
+	    height: 36px;
+	    width: 173px;
+	    float: left;
+	   }
+
+	#register  a {
+		text-decoration: none;
+		color: #FFFFFF;
+		font-size: 90%;
+	}
+
+	#register-container p {
+	    float: left;
+	    font-family: arial;
+	    font-size: 1.2em;
+	    font-weight: bold;
+	    margin-top: 4px;
+	    padding: 0 10px;
+	    width: 262px;
+	    }
+
+
+ul#nav {
+	background: url('../images/bg-navbar.jpg') repeat top center;
+    height: 56px;
+    margin: 60px auto 30px;
+    padding-left: 4px;
+    width: 877px;
+    list-style: none;
+    clear:both;
+}
+
+	ul#nav > li {
+		float: left;
+		width: 214px;
+		position: relative;
+		padding: 2px;
+		cursor: pointer;
+		list-style: none;
+		display: block;
+		height: 40px;
+	}
+
+		ul#nav > li > a {
+		display: block;
+		text-align: center;
+		width: 214px;
+		}
+
+ul#nav > li > div {
+		background: url('../images/bg-navbar.jpg') repeat 0 0;
+		position: absolute;
+		display: none;
+		width: 211px;
+		top: 52px;
+		z-index: 2;
+		border-radius: 3px;
+		padding: 3px;
+	}
+
+	ul#nav > li > div > ul{
+		display: inline-block;
+		list-style: none;
+		padding-left: 4px;
+	}
+
+	ul#nav > li:hover > div {
+		display: block;
+	}
+
+	ul#nav > li > div > ul > li{
+	    list-style: none;
+	    padding: 0;
+	}
+
+	ul#nav > li > div > ul > li > a {
+		text-decoration: none;
+		border: 0;
+	}
+
+#quote1 {
+	background: url('../images/quote01.png') no-repeat top center;
+	padding-top: 68px;
+	width: 838px;
+	margin: 0 auto 10px;
+}
+
+#player {
+
+margin: 0 auto;
+width: 877px;
+height: 470px;
+background: url('../images/player-pic.jpg') no-repeat top center;
+}
+
+
+	#player a {
+		display: block;
+		height: 470px;
+		width: 877px;
+	}
+
+	#player-btns {
+	background: url('../images/player-btn.png') no-repeat top center;
+	height: 40px;
+	width: 882px;
+	margin: 0 auto;
+	position: relative;
+	}
+
+	#watchtrailer{
+		position: absolute;
+		width: 204px;
+		left: 238px;
+		z-index: 10;
+		}
+
+		#watchtrailer a {
+		    color: #FFFFFF;
+		    display: block;
+		    font-size: 14px;
+		    height: 38px;
+		    padding: 10px 0px;
+		    text-align: center;
+		    text-decoration: none;
+		    width: 204px;
+		    font-weight: bold;
+	  		text-align: center;
+	  		font-family: arial;
+		}
+
+	#watchaction{
+		position: absolute;
+		width: 204px;
+		left: 442px;
+		text-decoration: none;
+		z-index: 10;
+		}
+
+		#watchaction a {
+			display: block;
+			height: 38px;
+			width: 204px;
+			color: #FFFFFF;
+			font-size: 14px;
+			padding: 10px 0px;
+		    text-align: center;
+		    text-decoration: none;
+		    font-weight: bold;
+	    	text-align: center;
+	    	font-family: arial;
+		}
+
+				#watchtrailer a:hover, #watchaction a:hover{
+					background: url('../images/btn-overlay.png') no-repeat top center;
+					width: 206px;
+					height: 58px;
+					left: -2px;
+					top: -8px;
+					position: absolute;
+				}
+
+					#watchtrailer a:hover span, #watchaction a:hover span{
+						display: inline-block;
+					    padding-top: 7px;
+					}
+
+#quote2 {
+	background: url('../images/quote02.png') no-repeat top center;
+	padding-top: 112px;
+	width: 878px;
+	margin: 0 auto;
+}
+
+#special {
+	float: left;
+	padding-left: 50px;
+	width: 450px;
+}
+
+	#special h2 {
+		background: url('../images/features.png') no-repeat top center;
+		padding-top: 45px;
+		width: 221px;
+	}
+
+	#special ul {
+	    color: #FFFFFF;
+	    font-size: 16px;
+	    font-weight: bold;
+	}
+
+	#disclaimer {
+		font-size: 10px;
+		color: #929191;
+		padding: 24px;
+	}
+
+#exclusives {
+	float: left;
+	padding-left: 85px;
+	width: 400px;
+}
+	#exclusives h2 {
+		background: url('../images/exclusives.png') no-repeat top center;
+		padding-top: 45px;
+		width: 263px;
+	}
+
+	#exclusives ul {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+	}
+
+#movie-pics {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 12px;
+}
+
+	#movie-pics img {
+		padding-top: 24px;
+	}
+
+#synopsis {
+	padding: 40px 0;
+}
+
+	#synopsis h2 {
+		background: url('../images/synopsis.png') no-repeat top center;
+		padding-top: 35px;
+		width: 133px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#synopsis p {
+	    color: #FFFFFF;
+	    font-size: 16px;
+	    font-weight: bold;
+	    margin: 0 auto;
+	    text-align: left;
+	    width: 551px;
+	    line-height: 1.5em;
+	}
+
+
+#rewards {
+	width: 1004px;
+	height: 99px;
+	margin: 0 auto;
+	padding-left: 1px;
+	padding-top: 20px;
+}
+
+#promotitle {
+    width: 563px;
+    padding-top: 23px;
+    margin: 50px auto;
+    background: url('../images/promotitle.png') no-repeat top center;
+}
+
+#promote ul{
+	list-style: none;
+	margin: 0 auto;
+	width: 856px;
+}
+
+	#promote ul li {
+	text-align: center;
+	display: inline-block;
+	 padding: 0 15px;
+	}
+
+		#promote ul li a {
+			text-decoration: none;
+		}
+
+#theatrical {
+	width: 365px;
+	margin: 30px auto;
+}
+
+#footer {
+	background: #000000 url('../images/footer.jpg') no-repeat top center;
+	width: 750px;
+	padding-top: 126px;
+	margin: 0 auto;
+}
+
+#footer p {
+	color: #747474;
+	font-size: 10px;
+	margin: 0;
+}
+
+#left-copyright {
+	float: left;
+}
+
+#right-copyright {
+	float: right;
+}
